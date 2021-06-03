@@ -97,11 +97,11 @@
  *
  * Well good, because this is exactly what we are going to compile. While this
  * is neither a complete LISP or C syntax, it will be enough of the syntax to
- * demonstrate many of the major pieces of a modern compiler.
+ * demonstrate（证明） many of the major pieces of a modern compiler.
  */
 
 /**
- * Most compilers break down into three primary stages: Parsing, Transformation,
+ * Most compilers break down into three primary stages: Parsing（解析）, Transformation（转换）,
  * and Code Generation
  *
  * 1. *Parsing* is taking raw code and turning it into a more abstract
@@ -141,7 +141,7 @@
  *
  *   (add 2 (subtract 4 2))
  *
- * Tokens might look something like this:
+   * Tokens might look something like this:
  *
  *   [
  *     { type: 'paren',  value: '('        },

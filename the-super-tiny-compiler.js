@@ -102,24 +102,24 @@
 
 /**
  * Most compilers break down into three primary stages: Parsing（解析）, Transformation（转换）,
- * and Code Generation
+ * and Code Generation(代码生成)
  *
  * 1. *Parsing* is taking raw code and turning it into a more abstract
- *    representation of the code.
+ *    representation of the code.（源码转为抽象语言（中间语言））
  *
  * 2. *Transformation* takes this abstract representation and manipulates to do
  *    whatever the compiler wants it to.
  *
  * 3. *Code Generation* takes the transformed representation of the code and
- *    turns it into new code.
+ *    turns it into new code.（转换成目标语言代码）
  */
-
+/**从这儿开始读**/
 /**
  * Parsing
  * -------
  *
- * Parsing typically gets broken down into two phases: Lexical Analysis and
- * Syntactic Analysis.
+ * Parsing typically gets broken down into two phases: Lexical Analysis(词汇分析) and
+ * Syntactic Analysis(语法分析).
  *
  * 1. *Lexical Analysis* takes the raw code and splits it apart into these things
  *    called tokens by a thing called a tokenizer (or lexer).
@@ -130,7 +130,7 @@
  *
  * 2. *Syntactic Analysis* takes the tokens and reformats them into a
  *    representation that describes each part of the syntax and their relation
- *    to one another. This is known as an intermediate representation or
+ *    to one another. This is known as an intermediate（中间） representation or
  *    Abstract Syntax Tree.
  *
  *    An Abstract Syntax Tree, or AST for short, is a deeply nested object that
